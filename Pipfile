@@ -7,6 +7,9 @@ name = "pypi"
 ipdb = "*"
 sqlalchemy = "*"
 alembic = "*"
+inquirer = "*"
+geopy = "*"
+simple-chalk = "*"
 
 [dev-packages]
 
