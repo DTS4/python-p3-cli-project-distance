@@ -1,0 +1,2 @@
+def people(name):
+    pass
