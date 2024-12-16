@@ -5,11 +5,11 @@ name = "pypi"
 
 [packages]
 ipdb = "*"
-sqlalchemy = "*"
 alembic = "*"
 geopy = "*"
 simple-chalk = "*"
 inquirer = "*"
+sqlalchemy = "*"
 
 [dev-packages]
 
