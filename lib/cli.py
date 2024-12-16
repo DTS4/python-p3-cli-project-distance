@@ -6,12 +6,12 @@ class DistanceCalculator:
     def __init__(self):
         # Transport modes with emojis and speeds
         self.transport_modes = [
-            {"mode": "Walking", "emoji": "🚶", "speed": 5},  # Speed: 5 km/h
-            {"mode": "Cycling", "emoji": "🚴", "speed": 15},  # Speed: 15 km/h
-            {"mode": "Car", "emoji": "🚗", "speed": 80},  # Speed: 80 km/h
-            {"mode": "Bus", "emoji": "🚌", "speed": 60},  # Speed: 60 km/h
-            {"mode": "Train", "emoji": "🚆", "speed": 120},  # Speed: 120 km/h
-            {"mode": "Airplane", "emoji": "🛬", "speed": 800}  # Speed: 800 km/h
+            {"mode": "Walking", "emoji": "🚶", "speed": 5},   
+            {"mode": "Cycling", "emoji": "🚴", "speed": 15},   
+            {"mode": "Car", "emoji": "🚗", "speed": 80},   
+            {"mode": "Bus", "emoji": "🚌", "speed": 60},   
+            {"mode": "Train", "emoji": "🚆", "speed": 120},  
+            {"mode": "Airplane", "emoji": "🛬", "speed": 800}   
         ]
         self.geolocator = geocoders.Nominatim(user_agent="distance_calculator")  # Geolocator instance
 
