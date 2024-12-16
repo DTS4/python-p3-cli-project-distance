@@ -1,2 +1,3 @@
-def people(name):
-    pass
+import inquirer
+from geopy import distance, geocoders
+from simple_chalk import green, blue, yellow
