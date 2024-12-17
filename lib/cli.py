@@ -140,7 +140,7 @@ class DistanceCalculator:
         # Display results
         self.display_results(start_city, end_city, distance_km)
 
-        # Record trip
+         #record trip
         self.record_trip(user, start_city, end_city, distance_km)
 
 # Instantiate and run the calculator
